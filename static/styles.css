@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+    background:rgb(82 125 167) !important;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgb(113 144 174) !important;
+}
+
+.container {
+    background: #97d2db;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.text-primary {
+    --bs-text-opacity: 1;
+    color: rgb(5 72 110) !important;
+}
+
+.p-4 {
+    padding: 1.5rem !important;
+    background: lightblue;
+}
+
+input, select {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
